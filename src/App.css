@@ -1,0 +1,68 @@
+*:before,
+*:after,
+* {
+  box-sizing: border-box;
+}
+
+.timer_wrapper {
+  text-align: center;
+}
+
+.timer {
+  font-size: 36px;
+  margin: 20px 0 10px 10px;
+}
+
+.laps {
+  padding: 0 0 0 20px;
+  list-style-type: decimal;
+  list-style-position: inside;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn_container button {
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.start_btn {
+  width: 60px;
+  background-color: #02b402;
+  margin: 0 3px 0 25px;
+}
+
+.continue_btn {
+  background-color: #8d0af8;
+  margin: 0 3px 0 5px;
+  padding: 1px 1px;
+  width: 80px;
+}
+
+.stop_btn {
+  width: 60px;
+  background-color: rgba(255, 88, 88, 0.884);
+  margin: 0 3px;
+}
+
+.reset_btn {
+  width: 60px;
+  background-color: orange;
+  margin: 0 3px;
+}
+
+.clear_btn {
+  text-align: center;
+  margin-top: 15px;
+  height: 20px;
+  border: none;
+  border-radius: 7px;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+}
+/*# sourceMappingURL=App.css.map */
